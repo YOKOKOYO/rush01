@@ -48,7 +48,7 @@ void	parseConfig( Window & win ) {
 					win.addModule(new Tools(), pos);
 				else if (array[2] == "NyanCat")
 					win.addModule(new NyanCatModule(), pos);
-				else if (array[2] == "PonyModule")
+				else if (array[2] == "Pony")
 					win.addModule(new PonyModule(), pos);
 				else if (array[2] == "OS")
 					win.addModule(new OSinfo(), pos);
